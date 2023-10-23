@@ -11,6 +11,7 @@ class CintaVideo extends Soporte
     {
         parent::__construct($titulo, $numero, $precio);
         $this->duracion=$duracion;
+
     }
 
     public function muestraResumen()
