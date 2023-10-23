@@ -21,6 +21,10 @@ class Soporte
         echo "Título: " . $this->titulo . ", Número: " . $this->numero . ", Precio: $" . $this->precio;
     }
 
+    public function __toString(): string
+    {
+        return "Título: " . $this->titulo . ", Número: " . $this->numero . ", Precio: $" . $this->precio;
+    }
 
 
 }
